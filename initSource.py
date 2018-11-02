@@ -2,7 +2,7 @@ import os
 
 if __name__ == '__main__':
     index = 0
-    source = 'Codec_source/'
+    source = 'LOGBACK_source/'
     if not os.path.exists(source):
         os.makedirs(source)
     index = 0
