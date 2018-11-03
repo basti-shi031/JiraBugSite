@@ -10,3 +10,6 @@
 /result
 /SPR*
 /.idea
+/filter
+/SLF4J*
+/*.zip

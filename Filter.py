@@ -21,6 +21,8 @@ if __name__ == '__main__':
     projectNames = os.listdir(baseDir)
     for projectName in projectNames:
         result = {}
+        if 'SLF4J' not in projectName:
+            continue
         print(projectName)
         projectDir = baseDir + projectName
         bugList = os.listdir(projectDir)

@@ -50,8 +50,9 @@ def parseSingleBugFile(bugGroupFileName, projectName):
 
 
 if __name__ == '__main__':
-    projectNames = ['HTTPCLIENT', 'SPR', 'LOGGING', 'CLI', 'COLLECTIONS', 'LANG', 'COMMON-IO', 'CODEC', 'LOGBACK',
-                    'LOG4J2']
+    # projectNames = ['HTTPCLIENT', 'SPR', 'LOGGING', 'CLI', 'COLLECTIONS', 'LANG', 'COMMON-IO', 'CODEC', 'LOGBACK',
+    #                 'LOG4J2']
+    projectNames = ['SLF4J']
     size = len(projectNames)
     startProjectIndex = int(sys.argv[1])
     startBugGroupIndex = int(sys.argv[2])

@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 if __name__ == '__main__':
     startFileName = sys.argv[1]
     startKeyIndex = int(sys.argv[2])
-    sourceDir = 'LOGBACK_source/'
-    destDir = 'LOGBACK_dest/'
+    sourceDir = 'SLF4J_source/'
+    destDir = 'SLF4J_dest/'
     # jira
     # url = 'https://issues.apache.org/jira/secure/AjaxIssueAction!default.jspa?issueKey=%s&decorator=none&prefetch=false&shouldUpdateCurrentProject=false&loadFields=false&'
     # spring
